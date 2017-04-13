@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ADOXML SYSTEM "adoxml31.dtd">
+<ADOXML version="3.1" date="25.01.2017" time="08:53" database="adoxxdb" username="SPARQL" adoversion="Version 5.1">
+<MODELS>
+<MODEL id="mod.43601" name="cs-test" version="" modeltype="DMN Model" libtype="bp" applib="BPMN2.0 + DMN Dynamic Library for SPARQL v1.1">
+<MODELATTRIBUTES>
+<ATTRIBUTE name="Version number" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Author" type="STRING">test</ATTRIBUTE>
+<ATTRIBUTE name="Creation date" type="STRING">20.01.2017, 01:39</ATTRIBUTE>
+<ATTRIBUTE name="Date last changed" type="STRING">25.01.2017, 08:52:45</ATTRIBUTE>
+<ATTRIBUTE name="Last user" type="STRING">SPARQL</ATTRIBUTE>
+<ATTRIBUTE name="Keywords" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Model type" type="ENUMERATION">Current model</ATTRIBUTE>
+<ATTRIBUTE name="State" type="ENUMERATION">In process</ATTRIBUTE>
+<ATTRIBUTE name="Reviewed on" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Reviewed by" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Number of objects and relations" type="INTEGER">2</ATTRIBUTE>
+<ATTRIBUTE name="World area" type="STRING">w:20.24cm h:28.94cm minw:5cm minh:5cm</ATTRIBUTE>
+<ATTRIBUTE name="Grid" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Zoom" type="INTEGER">221</ATTRIBUTE>
+<ATTRIBUTE name="Viewable area" type="STRING">VIEW representation:graphic
+GRAPHIC x:-16 y:304 w:897 h:556 scale:2.210820895522
+TABLE &quot;Boxed Expression&quot;
+</ATTRIBUTE>
+<ATTRIBUTE name="Current mode" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Base name" type="STRING">cs-test</ATTRIBUTE>
+<ATTRIBUTE name="Access state" type="ENUMERATION">write</ATTRIBUTE>
+<ATTRIBUTE name="Current page layout" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Connector marks" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="STRING">DMN Model</ATTRIBUTE>
+<ATTRIBUTE name="Change counter" type="INTEGER">376</ATTRIBUTE>
+<ATTRIBUTE name="Font size" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Context of version" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Position" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR expr:(set(targets, ctobjs(&quot;Is inside&quot;)),
+cond
+  (tokcnt(targets,&quot; &quot;)=0,&quot;black&quot;,
+    (cond
+      (tokcnt(targets,&quot; &quot;)=1,aval (VAL ctobjs(&quot;Is inside&quot;), &quot;Fontcolor&quot;),
+    (
+    set(tk,token(targets,0,&quot; &quot;)),
+                set(t,VAL (copy(aval(VAL tk, &quot;Position&quot;),search(aval(VAL tk, &quot;Position&quot;),&quot;index&quot;,0)+6,-1))),
+    fortok(x,targets,&quot; &quot;,
+        (
+        set(c,VAL (copy(aval(VAL x, &quot;Position&quot;),search(aval(VAL x, &quot;Position&quot;),&quot;index&quot;,0)+6,-1))),
+        cond(c&gt;=t,(set(res,x),set(t,c)),&quot;&quot;)
+        )),
+                aval (VAL res, &quot;Fontcolor&quot;)
+    ))
+   )
+  )) val:error:&quot;[acoexpar-01] Internal error!  \&quot;fontcolor\&quot; (BPModel)&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Categories" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Documentation" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Bezeichnung" type="STRING">Keine Modellbezeichnung vergeben</ATTRIBUTE>
+<ATTRIBUTE name="Beschreibung" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Kommentar" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Pool Term" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="ParticipantType" type="ENUMERATION">Role</ATTRIBUTE>
+<ATTRIBUTE name="Role" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Entity" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="BoundaryVisible" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="BPD Model Attributes" type="STRING">NOTEBOOK
+
+CHAPTER &quot;Business Process Diagram Attributes&quot;
+ATTR &quot;Name&quot; write-protected
+ATTR &quot;Contact person&quot;
+ATTR &quot;Author&quot; write-protected
+ATTR &quot;Language (BPMN)&quot;
+ATTR &quot;ExpressionLanguage&quot;
+ATTR &quot;QueryLanguage&quot;
+ATTR &quot;Creation date&quot; write-protected
+ATTR &quot;Date last changed&quot; write-protected
+ATTR &quot;Documentation (Model)&quot;
+ATTR &quot;State&quot;
+
+GROUP &quot;Copyright&quot;
+ATTR &quot;Copyright info&quot; 
+ATTR &quot;Copyright info position&quot; 
+ENDGROUP
+
+CHAPTER &quot;Process Attributes&quot;
+ATTR &quot;Name&quot; write-protected
+ATTR &quot;Process Term&quot;
+ATTR &quot;ProcessType&quot;
+ATTR &quot;Status&quot;
+ATTR &quot;Assignments&quot; lines:5
+ATTR &quot;Properties (BPMN)&quot; lines:5
+ATTR &quot;AdHoc&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot;
+GROUP &quot;AdHoc = True&quot;
+ATTR &quot;AdHocOrdering&quot;
+ATTR &quot;AdHocCompletionCondition&quot;
+ENDGROUP
+ATTR &quot;SuppressJoinFailure&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot;
+ATTR &quot;EnableInstanceCompensation&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot;
+ATTR &quot;Categories (Process)&quot;
+ATTR &quot;Documentation (Process)&quot;
+
+CHAPTER &quot;Pool Attributes&quot;
+GROUP &quot;Common Graphical Object Attributes&quot;
+ATTR &quot;Name&quot; write-protected
+ATTR &quot;Categories (Pool)&quot;
+ATTR &quot;Documentation (Pool)&quot;
+ENDGROUP
+GROUP &quot;Common Swimlane Attributes&quot;
+ATTR &quot;Pool Term&quot;
+ENDGROUP
+GROUP &quot;Pool Attributes&quot;
+ATTR &quot;ParticipantType&quot;
+ATTR &quot;Role&quot;
+ATTR &quot;Entity&quot;
+ATTR &quot;BoundaryVisible&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot; write-protected
+ENDGROUP</ATTRIBUTE>
+<ATTRIBUTE name="Language" type="ENUMERATION">System</ATTRIBUTE>
+<ATTRIBUTE name="ExpressionLanguage" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="QueryLanguage" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Process Term" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="BPD Term" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="ProcessType" type="ENUMERATION">None</ATTRIBUTE>
+<ATTRIBUTE name="Status" type="ENUMERATION">None</ATTRIBUTE>
+<RECORD name="Assignments"></RECORD>
+<ATTRIBUTE name="AdHoc" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="AdHocOrdering" type="ENUMERATION">None</ATTRIBUTE>
+<ATTRIBUTE name="AdHocCompletionCondition" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="EnableInstanceCompensation" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Categories (Process)" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Documentation (Process)" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Documentation (Pool)" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Categories (Pool)" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="SuppressJoinFailure" type="ENUMERATION">No</ATTRIBUTE>
+<RECORD name="Change history"></RECORD>
+<ATTRIBUTE name="RACI/DEMI visualisation" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Modelling direction" type="ENUMERATION">horizontal</ATTRIBUTE>
+<ATTRIBUTE name="IT systems" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Responsible role" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Input/Output" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Products" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Use cases" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Products color" type="STRING">whitesmoke</ATTRIBUTE>
+<ATTRIBUTE name="RACI/DEMI color" type="STRING">whitesmoke</ATTRIBUTE>
+<ATTRIBUTE name="Responsible role color" type="STRING">whitesmoke</ATTRIBUTE>
+<ATTRIBUTE name="Input/Output color" type="STRING">whitesmoke</ATTRIBUTE>
+<ATTRIBUTE name="Use cases color" type="STRING">whitesmoke</ATTRIBUTE>
+<ATTRIBUTE name="IT systems color" type="STRING">whitesmoke</ATTRIBUTE>
+<ATTRIBUTE name="Reference overview active" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Contact person" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="_ToggleModelInfo_" type="PROGRAMCALL">ITEM &quot;_ToggleModelInfo_&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Display modelling information" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Documentation (Model)" type="STRING"></ATTRIBUTE>
+<RECORD name="Properties (BPMN)"></RECORD>
+<ATTRIBUTE name="CreationDate" type="EXPRESSION">EXPR val:&quot;20.01.2017, 01:39&quot;</ATTRIBUTE>
+<ATTRIBUTE name="ModificationDate" type="EXPRESSION">EXPR val:&quot;25.01.2017, 08:52:45&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Language (BPMN)" type="STRING">English</ATTRIBUTE>
+<ATTRIBUTE name="BPMN20 Model Attributes" type="LONGSTRING">NOTEBOOK
+# TODO AVAL sMfbRegistration:&quot;_MFB-Registration_&quot;
+CHAPTER &quot;Description&quot;
+ATTR &quot;Contact person&quot;
+ATTR &quot;Keywords&quot; lines:2
+ATTR &quot;Description&quot; lines:3
+ATTR &quot;Comment&quot; lines:3
+
+GROUP &quot;Copyright&quot;
+ATTR &quot;Copyright info&quot; 
+ATTR &quot;Copyright info position&quot; 
+ENDGROUP
+ATTR &quot;Name&quot; write-protected
+ATTR &quot;Id&quot; write-protected
+
+
+
+#---------------------------------------------
+CHAPTER &quot;Process properties&quot;
+#---------------------------------------------
+GROUP &quot;Process attributes&quot;
+ATTR &quot;Process type&quot; #None, Private, Public 
+ATTR &quot;Executable&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot;
+ATTR &quot;Closed&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot;
+ENDGROUP
+
+GROUP &quot;Process relevance&quot;
+ATTR &quot;Auditing&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot;
+ATTR &quot;Monitoring&quot; ctrltype:check checked-value:&quot;Yes&quot; unchecked-value:&quot;No&quot;
+ENDGROUP
+
+CHAPTER &quot;User attributes&quot;
+ATTR &quot;Model type&quot;
+ATTR &quot;State&quot;
+ATTR &quot;Reviewed on&quot;
+ATTR &quot;Reviewed by&quot;
+
+CHAPTER &quot;System attributes&quot;
+ATTR &quot;Author&quot; write-protected
+ATTR &quot;Creation date&quot; write-protected
+ATTR &quot;Last user&quot; write-protected
+# ATTR &quot;Date last changed from&quot; write-protected
+ATTR &quot;Date last changed&quot; write-protected
+ATTR &quot;Number of objects and relations&quot; write-protected
+ATTR &quot;Context of version&quot; write-protected
+
+CHAPTER &quot;Change history&quot;
+ATTR &quot;Change history&quot; lines:30
+
+</ATTRIBUTE>
+<ATTRIBUTE name="Id" type="EXPRESSION">EXPR val:&quot;43601&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Auditing" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Monitoring" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Process type" type="ENUMERATION">None</ATTRIBUTE>
+<ATTRIBUTE name="Executable" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Closed" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Copyright info" type="STRING">Edit the model attributes to display your copyright info</ATTRIBUTE>
+<ATTRIBUTE name="Copyright info position" type="ENUMERATION">Bottom right</ATTRIBUTE>
+<ATTRIBUTE name="_GoToAceHp_" type="PROGRAMCALL">ITEM &quot;_GoToAceHp_&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="__GfxThumb__" type="LONGSTRING">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</ATTRIBUTE>
+</MODELATTRIBUTES>
+<INSTANCE id="obj.43603" class="Boxed Expression" name="Availability">
+<ATTRIBUTE name="Position" type="STRING">NODE x:5cm y:5.5cm index:1</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR expr:(set(targets, ctobjs(&quot;Is inside&quot;)),
+cond
+  (tokcnt(targets,&quot; &quot;)=0,&quot;black&quot;,
+    (cond
+      (tokcnt(targets,&quot; &quot;)=1,aval (VAL ctobjs(&quot;Is inside&quot;), &quot;Fontcolor&quot;),
+    (
+    set(tk,token(targets,0,&quot; &quot;)),
+                set(t,VAL (copy(aval(VAL tk, &quot;Position&quot;),search(aval(VAL tk, &quot;Position&quot;),&quot;index&quot;,0)+6,-1))),
+    fortok(x,targets,&quot; &quot;,
+        (
+        set(c,VAL (copy(aval(VAL x, &quot;Position&quot;),search(aval(VAL x, &quot;Position&quot;),&quot;index&quot;,0)+6,-1))),
+        cond(c&gt;=t,(set(res,x),set(t,c)),&quot;&quot;)
+        )),
+                aval (VAL res, &quot;Fontcolor&quot;)
+    ))
+   )
+  )) val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Categories" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Documentation" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Expression Type" type="ENUMERATION">Decision Table</ATTRIBUTE>
+<ATTRIBUTE name="Num of Parameters" type="EXPRESSION">EXPR  val:error:&quot;[acoexpar-02] Attribute \&quot;Parameters\&quot; (Boxed Expression) does not exist!  \&quot;Num of Parameters\&quot; (Boxed Expression)&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Orientation" type="ENUMERATION">Vertical</ATTRIBUTE>
+<ATTRIBUTE name="Hit Policy" type="ENUMERATION">Single Hit Unique</ATTRIBUTE>
+<ATTRIBUTE name="Aggregation Indicator" type="ENUMERATION">Sum</ATTRIBUTE>
+<ATTRIBUTE name="Completeness Indicator" type="ENUMERATION">Incomplete</ATTRIBUTE>
+<ATTRIBUTE name="Hit Policy (SN)" type="EXPRESSION">EXPR val:&quot;U&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Decision Table Call" type="PROGRAMCALL">ITEM &quot;&quot; param:&quot;&quot;</ATTRIBUTE>
+<RECORD name="Decision Table GraphRep">
+<ROW id="row.43606" number="1">
+<ATTRIBUTE name="Input 1" type="STRING">BusinessProcessRequirement.BPRhasDowntimePerMonthInMinutes.?val</ATTRIBUTE>
+<ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">BusinessProcessRequirement.cloudServiceHasAvailabilityInPercent.?availability</ATTRIBUTE>
+<ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Rule Order" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43608" number="2">
+<ATTRIBUTE name="Input 1" type="STRING">&gt; 0</ATTRIBUTE>
+<ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">(100 - (?val / ((24*30) * 100)))</ATTRIBUTE>
+<ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Rule Order" type="STRING">1</ATTRIBUTE>
+</ROW>
+</RECORD>
+<ATTRIBUTE name="FEEL Expression" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="Edit FEEL Expression" type="PROGRAMCALL">ITEM &quot;Edit FEEL Expression&quot; param:&quot;&quot;</ATTRIBUTE>
+<RECORD name="Parameters and Bindings"></RECORD>
+<ATTRIBUTE name="Function-valued Expression" type="STRING">function-valued expression(parameter1: binding expression1, parameter2: binding 
+expression2, …)</ATTRIBUTE>
+<RECORD name="Boxed Context Table"></RECORD>
+<ATTRIBUTE name="Boxed Context Result" type="LONGSTRING"></ATTRIBUTE>
+<RECORD name="Boxed Relation Table">
+<ROW id="row.43610" number="1">
+<ATTRIBUTE name="Col 1" type="STRING">Name</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Name</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43612" number="2">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43614" number="3">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43616" number="4">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43618" number="5">
+<ATTRIBUTE name="Col 1" type="STRING">Name</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Name</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43620" number="6">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43622" number="7">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43624" number="8">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+</RECORD>
+<ATTRIBUTE name="Boxed Function Kind" type="ENUMERATION">FEEL</ATTRIBUTE>
+<ATTRIBUTE name="Boxed Function Kind (SN)" type="EXPRESSION">EXPR val:&quot;F&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Priority of Execution" type="INTEGER">0</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.43626" class="Boxed Expression" name="Backup Frequency">
+<ATTRIBUTE name="Position" type="STRING">NODE x:5cm y:8cm index:2</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR expr:(set(targets, ctobjs(&quot;Is inside&quot;)),
+cond
+  (tokcnt(targets,&quot; &quot;)=0,&quot;black&quot;,
+    (cond
+      (tokcnt(targets,&quot; &quot;)=1,aval (VAL ctobjs(&quot;Is inside&quot;), &quot;Fontcolor&quot;),
+    (
+    set(tk,token(targets,0,&quot; &quot;)),
+                set(t,VAL (copy(aval(VAL tk, &quot;Position&quot;),search(aval(VAL tk, &quot;Position&quot;),&quot;index&quot;,0)+6,-1))),
+    fortok(x,targets,&quot; &quot;,
+        (
+        set(c,VAL (copy(aval(VAL x, &quot;Position&quot;),search(aval(VAL x, &quot;Position&quot;),&quot;index&quot;,0)+6,-1))),
+        cond(c&gt;=t,(set(res,x),set(t,c)),&quot;&quot;)
+        )),
+                aval (VAL res, &quot;Fontcolor&quot;)
+    ))
+   )
+  )) val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Categories" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Documentation" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Expression Type" type="ENUMERATION">Decision Table</ATTRIBUTE>
+<ATTRIBUTE name="Num of Parameters" type="EXPRESSION">EXPR  val:error:&quot;[acoexpar-02] Attribute \&quot;Parameters\&quot; (Boxed Expression) does not exist!  \&quot;Num of Parameters\&quot; (Boxed Expression)&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Orientation" type="ENUMERATION">Vertical</ATTRIBUTE>
+<ATTRIBUTE name="Hit Policy" type="ENUMERATION">Multiple Hit Output Order</ATTRIBUTE>
+<ATTRIBUTE name="Aggregation Indicator" type="ENUMERATION">Sum</ATTRIBUTE>
+<ATTRIBUTE name="Completeness Indicator" type="ENUMERATION">Incomplete</ATTRIBUTE>
+<ATTRIBUTE name="Hit Policy (SN)" type="EXPRESSION">EXPR val:&quot;O&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Decision Table Call" type="PROGRAMCALL">ITEM &quot;&quot; param:&quot;&quot;</ATTRIBUTE>
+<RECORD name="Decision Table GraphRep">
+<ROW id="row.43629" number="1">
+<ATTRIBUTE name="Input 1" type="STRING">BusinessProcessRequirement.cloudServiceHasBackupFrequency.?BF</ATTRIBUTE>
+<ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">BusinessProcessRequirement.cloudServiceHasBackupFrequency.?InheritedBF</ATTRIBUTE>
+<ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Rule Order" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43631" number="2">
+<ATTRIBUTE name="Input 1" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">daily, weekly, monthly, yearly</ATTRIBUTE>
+<ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Rule Order" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43633" number="3">
+<ATTRIBUTE name="Input 1" type="STRING">daily</ATTRIBUTE>
+<ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">weekly</ATTRIBUTE>
+<ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Rule Order" type="STRING">1</ATTRIBUTE>
+</ROW>
+<ROW id="row.43635" number="4">
+<ATTRIBUTE name="Input 1" type="STRING">weekly</ATTRIBUTE>
+<ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">monthly</ATTRIBUTE>
+<ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Rule Order" type="STRING">2</ATTRIBUTE>
+</ROW>
+<ROW id="row.43637" number="5">
+<ATTRIBUTE name="Input 1" type="STRING">monthly</ATTRIBUTE>
+<ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">yearly</ATTRIBUTE>
+<ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Rule Order" type="STRING">3</ATTRIBUTE>
+</ROW>
+</RECORD>
+<ATTRIBUTE name="FEEL Expression" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="Edit FEEL Expression" type="PROGRAMCALL">ITEM &quot;Edit FEEL Expression&quot; param:&quot;&quot;</ATTRIBUTE>
+<RECORD name="Parameters and Bindings"></RECORD>
+<ATTRIBUTE name="Function-valued Expression" type="STRING">function-valued expression(parameter1: binding expression1, parameter2: binding 
+expression2, …)</ATTRIBUTE>
+<RECORD name="Boxed Context Table"></RECORD>
+<ATTRIBUTE name="Boxed Context Result" type="LONGSTRING"></ATTRIBUTE>
+<RECORD name="Boxed Relation Table">
+<ROW id="row.43639" number="1">
+<ATTRIBUTE name="Col 1" type="STRING">Name</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Name</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43641" number="2">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43643" number="3">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.43645" number="4">
+<ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
+<ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 4" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 5" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 6" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 7" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 8" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
+</ROW>
+</RECORD>
+<ATTRIBUTE name="Boxed Function Kind" type="ENUMERATION">FEEL</ATTRIBUTE>
+<ATTRIBUTE name="Boxed Function Kind (SN)" type="EXPRESSION">EXPR val:&quot;F&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Priority of Execution" type="INTEGER">0</ATTRIBUTE>
+</INSTANCE>
+</MODEL>
+</MODELS>
+</ADOXML>

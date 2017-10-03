@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ADOXML SYSTEM "adoxml31.dtd">
-<ADOXML version="3.1" date="30.01.2017" time="19:07" database="adoxxdb" username="SPARQL" adoversion="Version 5.1">
+<ADOXML version="3.1" date="03.10.2017" time="19:27" database="adoxxdb" username="test" adoversion="Version 5.1">
 <MODELS>
-<MODEL id="mod.43601" name="cs-test" version="" modeltype="DMN Model" libtype="bp" applib="BPMN2.0 + DMN Dynamic Library for SPARQL v1.1">
+<MODEL id="mod.14283" name="cs-test" version="" modeltype="DMN Model" libtype="bp" applib="BPMN2.0 + DMN Dynamic Library for SPARQL v1.1">
 <MODELATTRIBUTES>
 <ATTRIBUTE name="Version number" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Author" type="STRING">test</ATTRIBUTE>
 <ATTRIBUTE name="Creation date" type="STRING">20.01.2017, 01:39</ATTRIBUTE>
-<ATTRIBUTE name="Date last changed" type="STRING">30.01.2017, 19:06:49</ATTRIBUTE>
-<ATTRIBUTE name="Last user" type="STRING">SPARQL</ATTRIBUTE>
+<ATTRIBUTE name="Date last changed" type="STRING">03.10.2017, 19:27:16</ATTRIBUTE>
+<ATTRIBUTE name="Last user" type="STRING">test</ATTRIBUTE>
 <ATTRIBUTE name="Keywords" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Model type" type="ENUMERATION">Current model</ATTRIBUTE>
@@ -21,7 +21,7 @@
 <ATTRIBUTE name="Grid" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Zoom" type="INTEGER">221</ATTRIBUTE>
 <ATTRIBUTE name="Viewable area" type="STRING">VIEW representation:graphic
-GRAPHIC x:-16 y:303 w:1297 h:886 scale:2.210820895522
+GRAPHIC x:-16 y:302 w:751 h:539 scale:2.210820895522
 TABLE &quot;Boxed Expression&quot;
 </ATTRIBUTE>
 <ATTRIBUTE name="Current mode" type="STRING"></ATTRIBUTE>
@@ -30,7 +30,7 @@ TABLE &quot;Boxed Expression&quot;
 <ATTRIBUTE name="Current page layout" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Connector marks" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Type" type="STRING">DMN Model</ATTRIBUTE>
-<ATTRIBUTE name="Change counter" type="INTEGER">385</ATTRIBUTE>
+<ATTRIBUTE name="Change counter" type="INTEGER">507</ATTRIBUTE>
 <ATTRIBUTE name="Font size" type="INTEGER">0</ATTRIBUTE>
 <ATTRIBUTE name="Context of version" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Position" type="STRING"></ATTRIBUTE>
@@ -151,7 +151,7 @@ ENDGROUP</ATTRIBUTE>
 <ATTRIBUTE name="Documentation (Model)" type="STRING"></ATTRIBUTE>
 <RECORD name="Properties (BPMN)"></RECORD>
 <ATTRIBUTE name="CreationDate" type="EXPRESSION">EXPR val:&quot;20.01.2017, 01:39&quot;</ATTRIBUTE>
-<ATTRIBUTE name="ModificationDate" type="EXPRESSION">EXPR val:&quot;30.01.2017, 19:06:49&quot;</ATTRIBUTE>
+<ATTRIBUTE name="ModificationDate" type="EXPRESSION">EXPR val:&quot;03.10.2017, 19:27:16&quot;</ATTRIBUTE>
 <ATTRIBUTE name="Language (BPMN)" type="STRING">English</ATTRIBUTE>
 <ATTRIBUTE name="BPMN20 Model Attributes" type="LONGSTRING">NOTEBOOK
 # TODO AVAL sMfbRegistration:&quot;_MFB-Registration_&quot;
@@ -203,7 +203,7 @@ CHAPTER &quot;Change history&quot;
 ATTR &quot;Change history&quot; lines:30
 
 </ATTRIBUTE>
-<ATTRIBUTE name="Id" type="EXPRESSION">EXPR val:&quot;43601&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Id" type="EXPRESSION">EXPR val:&quot;14283&quot;</ATTRIBUTE>
 <ATTRIBUTE name="Auditing" type="ENUMERATION">No</ATTRIBUTE>
 <ATTRIBUTE name="Monitoring" type="ENUMERATION">No</ATTRIBUTE>
 <ATTRIBUTE name="Process type" type="ENUMERATION">None</ATTRIBUTE>
@@ -212,9 +212,9 @@ ATTR &quot;Change history&quot; lines:30
 <ATTRIBUTE name="Copyright info" type="STRING">Edit the model attributes to display your copyright info</ATTRIBUTE>
 <ATTRIBUTE name="Copyright info position" type="ENUMERATION">Bottom right</ATTRIBUTE>
 <ATTRIBUTE name="_GoToAceHp_" type="PROGRAMCALL">ITEM &quot;_GoToAceHp_&quot; param:&quot;&quot;</ATTRIBUTE>
-<ATTRIBUTE name="__GfxThumb__" type="LONGSTRING">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</ATTRIBUTE>
+<ATTRIBUTE name="__GfxThumb__" type="LONGSTRING">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</ATTRIBUTE>
 </MODELATTRIBUTES>
-<INSTANCE id="obj.43603" class="Boxed Expression" name="Availability">
+<INSTANCE id="obj.14285" class="Boxed Expression" name="Availability">
 <ATTRIBUTE name="Position" type="STRING">NODE x:5cm y:5.5cm index:1</ATTRIBUTE>
 <ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR expr:(set(targets, ctobjs(&quot;Is inside&quot;)),
@@ -245,7 +245,7 @@ cond
 <ATTRIBUTE name="Hit Policy (SN)" type="EXPRESSION">EXPR val:&quot;U&quot;</ATTRIBUTE>
 <ATTRIBUTE name="Decision Table Call" type="PROGRAMCALL">ITEM &quot;&quot; param:&quot;&quot;</ATTRIBUTE>
 <RECORD name="Decision Table GraphRep">
-<ROW id="row.43606" number="1">
+<ROW id="row.14288" number="1">
 <ATTRIBUTE name="Input 1" type="STRING">BusinessProcessRequirement.BPRhasDowntimePerMonthInMinutes.?val</ATTRIBUTE>
 <ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
@@ -261,7 +261,7 @@ cond
 <ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Rule Order" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43608" number="2">
+<ROW id="row.14290" number="2">
 <ATTRIBUTE name="Input 1" type="STRING">&gt; 0</ATTRIBUTE>
 <ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
@@ -286,7 +286,7 @@ expression2, …)</ATTRIBUTE>
 <RECORD name="Boxed Context Table"></RECORD>
 <ATTRIBUTE name="Boxed Context Result" type="LONGSTRING"></ATTRIBUTE>
 <RECORD name="Boxed Relation Table">
-<ROW id="row.43610" number="1">
+<ROW id="row.14292" number="1">
 <ATTRIBUTE name="Col 1" type="STRING">Name</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Name</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -298,7 +298,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43612" number="2">
+<ROW id="row.14294" number="2">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -310,7 +310,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43614" number="3">
+<ROW id="row.14296" number="3">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -322,7 +322,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43616" number="4">
+<ROW id="row.14298" number="4">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -334,7 +334,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43618" number="5">
+<ROW id="row.14300" number="5">
 <ATTRIBUTE name="Col 1" type="STRING">Name</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Name</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -346,7 +346,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43620" number="6">
+<ROW id="row.14302" number="6">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -358,7 +358,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43622" number="7">
+<ROW id="row.14304" number="7">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -370,7 +370,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43624" number="8">
+<ROW id="row.14306" number="8">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -387,7 +387,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Boxed Function Kind (SN)" type="EXPRESSION">EXPR val:&quot;F&quot;</ATTRIBUTE>
 <ATTRIBUTE name="Priority of Execution" type="INTEGER">0</ATTRIBUTE>
 </INSTANCE>
-<INSTANCE id="obj.43626" class="Boxed Expression" name="Backup Frequency">
+<INSTANCE id="obj.14308" class="Boxed Expression" name="Backup Frequency">
 <ATTRIBUTE name="Position" type="STRING">NODE x:5cm y:8cm index:2</ATTRIBUTE>
 <ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR expr:(set(targets, ctobjs(&quot;Is inside&quot;)),
@@ -418,8 +418,8 @@ cond
 <ATTRIBUTE name="Hit Policy (SN)" type="EXPRESSION">EXPR val:&quot;O&quot;</ATTRIBUTE>
 <ATTRIBUTE name="Decision Table Call" type="PROGRAMCALL">ITEM &quot;&quot; param:&quot;&quot;</ATTRIBUTE>
 <RECORD name="Decision Table GraphRep">
-<ROW id="row.43629" number="1">
-<ATTRIBUTE name="Input 1" type="STRING">CloudService.cloudServiceHasBackupFrequency.?BF</ATTRIBUTE>
+<ROW id="row.14311" number="1">
+<ATTRIBUTE name="Input 1" type="STRING">CloudService.hasBackupFrequency.?BF</ATTRIBUTE>
 <ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
@@ -434,7 +434,7 @@ cond
 <ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Rule Order" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43631" number="2">
+<ROW id="row.14313" number="2">
 <ATTRIBUTE name="Input 1" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
@@ -445,13 +445,13 @@ cond
 <ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
-<ATTRIBUTE name="Output 1" type="STRING">daily, weekly, monthly, yearly</ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">At_least_weekly, At_least_monthly, At_least_yearly</ATTRIBUTE>
 <ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Rule Order" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43633" number="3">
-<ATTRIBUTE name="Input 1" type="STRING">daily</ATTRIBUTE>
+<ROW id="row.14315" number="3">
+<ATTRIBUTE name="Input 1" type="STRING">At_least_daily</ATTRIBUTE>
 <ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
@@ -461,13 +461,13 @@ cond
 <ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
-<ATTRIBUTE name="Output 1" type="STRING">weekly</ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">At_least_weekly</ATTRIBUTE>
 <ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Rule Order" type="STRING">1</ATTRIBUTE>
 </ROW>
-<ROW id="row.43635" number="4">
-<ATTRIBUTE name="Input 1" type="STRING">weekly</ATTRIBUTE>
+<ROW id="row.14317" number="4">
+<ATTRIBUTE name="Input 1" type="STRING">At_least_weekly</ATTRIBUTE>
 <ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
@@ -477,13 +477,13 @@ cond
 <ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
-<ATTRIBUTE name="Output 1" type="STRING">monthly</ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">At_least_monthly</ATTRIBUTE>
 <ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Rule Order" type="STRING">2</ATTRIBUTE>
 </ROW>
-<ROW id="row.43637" number="5">
-<ATTRIBUTE name="Input 1" type="STRING">monthly</ATTRIBUTE>
+<ROW id="row.14319" number="5">
+<ATTRIBUTE name="Input 1" type="STRING">At_least_monthly</ATTRIBUTE>
 <ATTRIBUTE name="Input 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 4" type="STRING"></ATTRIBUTE>
@@ -493,7 +493,7 @@ cond
 <ATTRIBUTE name="Input 8" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Input 10" type="STRING"></ATTRIBUTE>
-<ATTRIBUTE name="Output 1" type="STRING">yearly</ATTRIBUTE>
+<ATTRIBUTE name="Output 1" type="STRING">At_least_yearly</ATTRIBUTE>
 <ATTRIBUTE name="Output 2" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Output 3" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Rule Order" type="STRING">3</ATTRIBUTE>
@@ -507,7 +507,7 @@ expression2, …)</ATTRIBUTE>
 <RECORD name="Boxed Context Table"></RECORD>
 <ATTRIBUTE name="Boxed Context Result" type="LONGSTRING"></ATTRIBUTE>
 <RECORD name="Boxed Relation Table">
-<ROW id="row.43639" number="1">
+<ROW id="row.14321" number="1">
 <ATTRIBUTE name="Col 1" type="STRING">Name</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Name</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -519,7 +519,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43641" number="2">
+<ROW id="row.14323" number="2">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -531,7 +531,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43643" number="3">
+<ROW id="row.14325" number="3">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -543,7 +543,7 @@ expression2, …)</ATTRIBUTE>
 <ATTRIBUTE name="Col 9" type="STRING"></ATTRIBUTE>
 <ATTRIBUTE name="Col 10" type="STRING"></ATTRIBUTE>
 </ROW>
-<ROW id="row.43645" number="4">
+<ROW id="row.14327" number="4">
 <ATTRIBUTE name="Col 1" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 2" type="STRING">Val</ATTRIBUTE>
 <ATTRIBUTE name="Col 3" type="STRING"></ATTRIBUTE>
@@ -558,7 +558,7 @@ expression2, …)</ATTRIBUTE>
 </RECORD>
 <ATTRIBUTE name="Boxed Function Kind" type="ENUMERATION">FEEL</ATTRIBUTE>
 <ATTRIBUTE name="Boxed Function Kind (SN)" type="EXPRESSION">EXPR val:&quot;F&quot;</ATTRIBUTE>
-<ATTRIBUTE name="Priority of Execution" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Priority of Execution" type="INTEGER">1</ATTRIBUTE>
 </INSTANCE>
 </MODEL>
 </MODELS>

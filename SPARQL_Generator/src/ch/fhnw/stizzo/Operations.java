@@ -774,7 +774,6 @@ public class Operations {
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
-			;
 		}
 		// SORTING DECISION TABLES
 		ArrayList<ADOxxDecisionTable> sorted_DT = new ArrayList<ADOxxDecisionTable>();
@@ -862,6 +861,7 @@ public class Operations {
 			if (DT.getHit_policy().equals("Single Hit Unique") ||
 					//DT.getHit_policy().equals("Single Hit First") ||
 					DT.getHit_policy().equals("Single Hit Any")) {
+				
 				// ***********************
 				// 1 - SINGLE HIT UNIQUE
 				// ***********************
@@ -1569,7 +1569,6 @@ public class Operations {
 				// ***********************
 				// 6 - MULTIPLE HIT OUTPUT ORDER
 				// ***********************
-				
 
 				for (int j = 0; j < temp_output_entries.size(); j++) {
 					// GETTING ALL THE ROWS OF THE DT
@@ -1606,7 +1605,6 @@ public class Operations {
 						}
 						
 					}
-					
 					
 					DT.setRows(ordered_rows);
 					

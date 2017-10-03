@@ -25,7 +25,7 @@ public class UI extends JFrame{
 
 	private static final long serialVersionUID = 1L;
 	private Operations op;
-	private String title = "ADOxx DMN Parser";
+	private String title = "SPARQL Generator";
 	//Graphical elements:
 	private JFrame frmDmnAnalyser;
 	private JTextField txtPathOntology;
